@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(223, 224, 224);
+}
+::selection{
+    color: black;
+    background-color: aquamarine;
+ }
+
+.container{
+    max-width: 1200px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    padding: 20Px;
+}
+.header{
+    background-color: cadetblue;
+    color: chocolate;
+    width: 450px;
+    height: 50px;
+    margin:10px auto;
+    text-shadow: 5px 5px 5px black;
+    text-align: center;
+}
+.header2{
+    
+    color: rgb(46, 44, 44);
+    font-size: 2rem;
+    width: 450px;
+    height: 50px;
+    margin:10px auto;
+    text-shadow: 5px 5px 5px rgb(29, 27, 27);
+    text-align: center;
+
+}
+.skill-container{
+    width: 500px;
+    background-color: gray;
+    padding: 20px;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+    margin:30px auto  ;
+    
+}
+.skill-container li{
+    list-style-type: none;
+    margin: 50px 0;
+    font-weight: bolder;
+    text-transform: uppercase;
+    position: relative;
+    
+}
+.skill-container li::before{
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+
+
+
+    background-color: rgb(201, 210, 218);
+    width: 100%;
+    height: 25px;
+    border-radius: 1000px;
+}
+
+.skill-container li::after{
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+
+
+
+    background-color: rgb(240, 241, 137);
+    width: 0;
+    height: 25px;
+    border-radius: 1000px;
+
+    animation-duration: 3s;
+    animation-timing-function:ease;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+   /* animation-iteration-count: 2;
+    animation-duration: forword; */
+    
+
+}
+
+.skill-container li.html::after{
+    animation-name: html;
+}
+@keyframes html {
+    to{
+        width: 95%;
+        background-color: orangered;
+        
+    }  
+    
+}
+
+.skill-container li.css::after{
+    animation-name: css;
+}
+@keyframes css {
+    to{
+        width: 80%;
+        background-color: rgb(253, 104, 45);
+    }
+}
+
+.skill-container li.js::after{
+    animation-name: js;
+}
+@keyframes js {
+    to{
+        width: 50%;
+        background-color: rgb(253, 175, 144);
+    }
+}
+
+.skill-container li.bootstrap::after{
+    animation-name: bootstrap;
+}
+@keyframes bootstrap {
+    to{
+        width: 60%;
+        background-color: rgb(255, 141, 95);
+    }
+}
+
+.skill-container li.node-js::after{
+    animation-name: node-js;
+}
+@keyframes node-js {
+    to{
+        width: 35%;
+        background-color: rgb(252, 230, 221);
+    }
+}
+
+
+.skill-container li.react-js::after{
+    animation-name: react-js;
+}
+@keyframes react-js {
+    to{
+        width: 40%;
+        background-color:rgb(253, 198, 176);
+    }
+}
+
+
+
+

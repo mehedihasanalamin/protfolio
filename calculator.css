@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: #eee;
+
+}
+
+.container{
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: lightcyan;
+
+}
+h1,H2{
+    text-align: center;
+    text-shadow:6px 5px 5px rgba(0, 0, 0, 0.877);
+}
+h1:hover{
+    
+    
+}
+.card {
+    width: 350px;
+    background-color: gray;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px white;
+    transition: 0.4s;
+    margin-top: 10px;
+    font-size: 0;
+    border: 2px solid rgb(10, 250, 250);
+    box-shadow:0 16px 32px 0 rgba(0, 0, 0, 0.877);
+    
+}
+
+.card:hover{
+    
+}
+
+.calc-body{
+    width: 350px;
+
+}
+.card-head #result{
+    width: 339.9px;
+    height: 100px;
+    
+    text-align: right;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 32px;
+    padding-right: 6px;
+
+}
+
+.btn{
+    width: 87.5px;
+    height: 70px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+
+.btn:hover{
+    text-shadow:4px 4px 4px rgba(0, 0, 0, 0.877);
+
+}
+.btn-number:hover{
+    background-color: cadetblue;
+}
+
+.bottom-color{
+    color:darkgreen;
+}
+.bottom-bg-color{
+    background-color: pink;
+}
+
+.bottom-bg-color2{
+    background-color: beige;
+}
+.bottom-bg-color3{
+    background-color: coral;
+}
+.bottom-bg-color4{
+    background-color: gainsboro;
+}
+.bottom-bg-color5{
+    background-color: #1f2326;
+    color: white;
+}
+

@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: gray;
+
+}
+
+.flex-container{
+    max-width: 1280px;
+    background-color: azure;
+    margin: 0 auto; 
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    
+
+
+
+}
+
+
+.flex-container > div{
+    background-color: aqua;
+    width: 100px;
+    font-size: 24px;
+    margin: 10px;
+    padding: 20px;
+
+}
+.main-header{
+    max-width: 1280px;
+    background-color: #a7ffddd5;
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+h1, h2{
+    text-align: center;
+    margin: 10px;
+    color: black;
+    background-color: pink;
+    margin: 0 auto; 
+    max-width: 1260px;
+    
+    
+
+}
+.main-list{
+    padding: 15px;
+    margin:0;
+    font-weight: bold;
+    font-size: 20px;
+}

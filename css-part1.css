@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  #eee;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1300px;
+    background-color: #e4f9f5;
+     margin: 20px auto;
+    padding: 15px;
+
+}
+.profile-image{
+    width: 1300px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+.header-name{
+    text-align: center;
+    text-decoration: bold;
+    color:green;
+}
+
+h1::first-letter{
+    color: #10188a;
+        font-size: 3.5rem;
+}
+.header-list{
+    float:left;
+    height: auto;
+    width: 280px;
+    position:static;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 2px;
+    background-color: rgb(173, 248, 242);
+    border-radius:10px;
+    padding-bottom: 5px ;
+    display:flex;
+    
+    
+}
+.header-list a{
+    text-decoration: none;
+}
+.header-list a li{
+    background-color: rgb(131, 175, 175);
+    width: 278px;
+    height: 50px;
+    color: black;
+    margin: 10px;
+}
+
+.header-list a:hover{
+    color: blue;
+    
+}

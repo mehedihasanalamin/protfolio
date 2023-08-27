@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:#eee;
+}
+
+:root{
+    --praimary-color: green;
+    --secondary-color:gray;
+}
+
+
+
+.container{
+    background-color: #e4f9f5;
+    width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    padding: 40px;
+    color: rgb(5, 232, 248);
+}
+
+
+.Veryable-header{
+   
+    
+}
+
+@media screen and (max-width:600px){
+    :root{
+        --praimary-color: rgb(11, 24, 11);
+        --secondary-color:rgb(224, 10, 10);
+    }
+
+}
+.Veryable1{
+    width: 250px;
+    height: 300px;
+    background-color: blue;
+    border:2px solid black;
+    border-radius:3%;
+    float:left;
+    position: absolute;
+
+    
+
+}
+.Veryable2{
+    width: 250px;
+    height: 300px;
+    background-color: var(--praimary-color);
+    border:2px solid black;
+    border-radius:3%;
+    float:left;
+    position: absolute;
+    left: 640px;
+
+}
+.Veryable3{
+    width: 250px;
+    height: 300px;
+    background-color: rgb(4, 253, 149);
+    border:2px solid rgb(219, 15, 15);
+    border-radius:3%;
+    float:left;
+    left: 1165px;
+    position: absolute;
+
+}
+.Veryable4{
+    width: 250px;
+    height: 300px;
+    background-color: var(--secondary-color);
+    border:2px solid black;
+    border-radius:3%;
+    float:left;
+    position: absolute;
+    top: 460px;
+    left: 640px;
+
+}
+.Veryable5{
+    width: 250px;
+    height: 300px;
+    background-color: rgb(186, 11, 209);
+    border:2px solid rgb(60, 211, 248);
+    border-radius:3%;
+    float:left;
+    position: absolute;
+    top: 460px;
+    
+
+}
+.Veryable6{
+    width: 250px;
+    height: 300px;
+    background-color: rgb(59, 243, 114);
+    border:2px solid black;
+    border-radius:3%;
+    float:left;
+    position: absolute;
+    left: 1165px;
+    top: 460px;
+
+}

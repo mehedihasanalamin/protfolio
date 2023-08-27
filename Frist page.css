@@ -1,0 +1,192 @@
+
+body{
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: #e4f9f5;
+    margin:0 auto;
+    padding: 20px;
+}
+
+header{
+
+}
+
+.profile-image{
+    width: 110px;
+    height: 120px;
+    border: 3px solid white ;
+    border-radius: 50%;
+    float: left;
+    position:; 
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+    text-decoration: bold;
+    position:;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color:#11999e;
+    
+
+}
+.header-contact{
+    float:right;
+    padding: 5px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+    padding-left:none;
+    padding-top:none;
+    padding-right:20px;
+    padding-bottom:none;
+    float: right;
+
+}
+.header-contact a:hover{
+    color:coral;
+}
+.clear-div{
+    clear:both;
+}
+.profile-image2{
+    width: 1000px;
+    height: 400px;
+    border: 3px solid white ;
+    border-radius: 5%;
+    opacity: 0.5;
+    position: ;
+}
+
+
+.Registration-form h2   {
+    font-weight: bold;
+    color:red;
+    font-size: 28px;
+    text-align: right;
+}
+
+.table2		{
+    border:5px solid pink;
+    border-collapse: collapse;
+    border:3px;
+    width:300px;
+    height:550px;
+    margin: 0 700px;
+}
+
+input		{ 
+    padding:;
+    font-size: 1rem;
+    width: 150px;
+}
+
+div label:hover{
+    color: red
+}
+.Registration-form h2:hover{
+    color: white
+}
+select:hover{
+    color: green
+    
+}
+input:hover{
+    color: black 
+    
+}
+
+input:hover{
+    background-color:#C4C4C0 
+    
+}
+input:focus{
+    background-color: white
+    
+}
+input.choose-file:hover{
+    
+    color: green
+} 
+
+td, th { 
+    border: 2px solid pink;
+    color:#180048;
+    background-color: #60F0F8;
+    } 
+
+.clear-div{
+    clear: both;
+}
+
+
+
+    
+
+
+
+
+
+
+
+.profile-image2:hover{
+    opacity: 1;
+}
+     
+
+hr{
+    border: solid black 3.5px;
+    width: 100%; 
+    margin: 20px auto;
+    border-bottom: none;
+}
+.personals-informations{
+
+}
+.content{
+    margin-bottom: 30px;
+
+}
+.left-div{
+    width:30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+
+.common-hr{
+    border:solid black 1px;
+    border-bottom: none;
+    width:100%
+    margin:20px auto;
+}
+
+.Next-pages a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+    padding: 8px;
+    float: right; 
+    font-size: 25px;  
+}
+
+.Next-pages a:hover{
+    color:coral;
+}
+.container2{
+    max-width: 900px;
+    background-color: #e4f9f5;
+    margin:0 auto;
+    padding: 20px;
+}
+
+

@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(214, 219, 218);
+}
+.container{
+    background-color: aliceblue;
+    height: 800px;
+    width: 1200px;
+    margin: 0 auto;
+    
+
+}
+.header{
+    background-color: cadetblue;
+    text-align: center;
+    padding: 15px;
+    margin:20px auto;
+    width: 800px;
+
+
+}
+.header a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.div1{
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+    transition: 2s;
+    
+}
+h1{
+   
+}
+.div1:hover h1{
+    padding-top: 80px;
+    transition: 2s;
+    text-shadow: 1px 8px 8px rgb(243, 233, 233);
+
+}
+.div1:hover{
+    transform: scale(2);
+    
+    box-shadow: 5px 5px 8px black;
+    font-size: 1.25rem;
+    font-weight: bold;
+
+    
+}
+ /*amara chaile egulau sue korte pari/*
+    /*transform: translate(150px, 250px);
+    transform: skew(22.5deg);
+    transform: rotate(360deg);/*

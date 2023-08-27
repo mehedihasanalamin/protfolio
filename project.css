@@ -1,0 +1,294 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color:#eee;
+}
+
+.container{
+	max-width: 1250px;
+	padding: 20px;
+	margin: 0 auto;
+	background-color:#D3F6D8;
+}
+
+			
+	.navigation {
+				text-align: right;
+				padding: 3px 0;
+			}
+			
+	.navigation a {
+				font-weight: bold;
+				color: white;
+				font-size: 18px;
+				margin: 0px 20px;
+				text-decoration: none;
+				cursor: crosshair;
+			}
+			a:hover{
+				text-decoration: underline;
+
+			}
+		
+	.navigation h1   {
+				font-weight: bold;
+				color: white;
+				font-size: 28px;
+			} 
+		
+
+			.profile-image2{
+				width: 800px;
+				height: 500px;
+				border: 3px solid white ;
+				border-radius: 5%;
+				opacity: 0.5;
+				position: ;
+				float:left;
+			}
+		
+			.profile-image2:hover{
+				opacity: ;
+			}
+
+	.navigation p {
+			color: white;
+			font-size: 17px;
+			} 
+	.navigation img {
+			bor der-color: white;
+			text-align: center;
+			} 
+	.navigation div  {
+				text-align: left;
+				color: white;
+				bankground-color: white;
+			}
+	.Registration-form h2   {
+				font-weight: bold;
+				color:red;
+				font-size: 28px;
+				align:right;
+			}
+	.table2		{
+				border:5px solid pink;
+				border-collapse: collapse;
+				float:right;
+				} 
+			
+	input		{ 
+				padding:;
+				font-size: 1rem;
+				width: 150 px;
+				
+				}
+				
+	h2 { 
+			margin: 10px 35px;
+			}
+			#backgroundc thead { 
+			background-color: red;
+			}
+			
+	body a:hover {
+				color: green
+			}
+			
+	div label:hover{
+				color: red
+				}
+
+	.Registration-form h2:hover{
+				color: white
+				
+				} 
+				
+	select:hover{
+				color: green
+				
+				}
+				
+	input:hover{
+				color: black 
+				
+				}
+				
+	input:hover{
+				background-color:#C4C4C0 
+				
+				}
+	input:focus{
+				background-color: white
+				
+				}
+	input.choose-file:hover{
+				
+				color: green
+				} 
+				
+	.p1::first-line{
+				
+				color: #2f3314;
+				font-size: 2rem;
+				} 
+	.p1::first-letter{
+				
+				color: #15160c;
+				font-size: 3.5rem;
+				} 
+				
+	.p1			{
+				font-weight: bold;
+				} 
+				
+	p::after{
+					content: "*";
+					} 
+					
+.demu p:first-child{
+					background-color: #121a02;
+					color: #000000;
+					font-size: 2rem;
+					font-weight: bold;
+					padding:5px; 
+					margin auto;
+					
+					
+					
+					
+					}
+.demu p:nth-child(2){
+					background-color: #223324;
+					color: #1B4F72 ;
+					font-size: 2rem;
+					font-weight: bold;
+					padding:5px;
+					max-width:1350px;
+					margin auto;
+					
+					
+					}
+	.demu p:last-child{
+					background-color: #BDC3C7 ;
+					color: rgb(0, 31, 0);
+					font-size: 2rem;
+					font-weight: bold;
+					padding:5px;
+					Display: inline;
+					margin auto;
+					
+					}
+
+	.demu p:hover{
+					color: #3F3844;
+					background-color:;
+				} 
+				
+	.list {
+					font-weight: bold; 
+					border-collapse: collapse;
+					
+					padding:10px;
+					float:left;
+					} 
+	tr{ 
+					text-align: center;
+				} 
+				
+				
+	td, th { 
+				border: 2px solid pink;
+				color:#180048;
+				background-color: #60F0F8;
+				} 
+				
+					
+	caption	{
+				
+				padding: 10px;
+				color: #1b2285;
+				}
+
+				#div1{
+					color: #000000;
+				}
+				
+	.first-letter-style::first-letter{
+					color: #1b5a74;
+					font-size:3rem;
+				} 
+					
+	.first-letter-style p {
+					font-size: 2rem;
+					color: #1b5a74;
+					
+					} 
+	input::placeholder{
+						color: #1b5a74;
+						}
+	
+	::selection{
+		Color: brown;
+		background-color: green;
+	}
+	
+	.demu::before{
+		content: 'HTML is the standard markup language for Web pages.';
+		width:28%;
+		height: 20px;
+		background: gray;
+		Display: inline-block;
+		color:#000000;
+		font-weight: bold;
+		
+		
+	}
+	
+	.gradient-style{
+		height:400px;
+		width:100%;
+		background-image:linear-gradient(to right,red,green);
+		
+	}
+
+	#clear-div{
+
+		clear:both;
+
+	}
+
+	.box-sizeing{
+		background-color: gray;
+		height: 70px;
+		width: 50%;
+		color: #000000;
+		padding: 5px;
+		border: 5px solid rgb(147, 248, 218);
+		box-sizing: border-box;
+		float:right; 
+
+	}
+	.box-sizeing2{
+		background-color:rgb(241, 177, 177);
+		height: 70px;
+		width: 50%;
+		color: #000000;
+		float: left; 
+		padding: 10px;
+		box-sizing: border-box;
+		
+	}
+
+	.video-opacity{
+
+		height: 300px;
+		width: 500px;
+		align: ;
+		opacity: 0.5;
+	}
+	.video-opacity:hover{
+
+		opacity: 1;
+	}

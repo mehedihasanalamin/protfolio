@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(192, 194, 194);
+}
+.container{
+    background-color: aliceblue;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.manu{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.manu a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+.manu a:hover{
+    background-color: gray;
+}
+@media screen and (max-width: 600px){
+    .manu{
+        flex-direction: column;
+        box-shadow: 2px 3px 10px rgb(28, 37, 35);
+        padding: 10px;
+    }
+    .manu a{
+        background-color: chocolate;
+        margin: 5px 0px;
+        text-align: center; 
+        text-shadow: 2px 3px 20px black;
+        font-size: 1.2rem;
+        border-radius: 9px;
+        
+    }
+
+}

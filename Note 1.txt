@@ -1,0 +1,22 @@
+text-align: right
+background-color:
+font-weight:
+color: white
+font-size: 17px;          
+border-color: white;
+placeholder=""        
+
+<div id="div1">
+Text-indent: 50px;
+Word-spaceing: 30px;
+width: 600px;
+Margin: 50px;
+Display: inline;
+max-width: 600px
+
+:hover
+(class) div.class:hover{ 
+<p>::focus 
+<p>::after{
+content: "*";
+

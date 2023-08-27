@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+.cource-list{
+    background-color: #ccc;
+    padding: 20px;
+}
+.cource-list ul{
+    list-style-type: circle;
+    list-style-position: inside;
+    list-style-image: url(Images/tick.png);
+}
+
+
+
+.cource-list2{
+    background-color:cadetblue;
+    padding: 20px;
+}
+.cource-list2 ul{
+    list-style-type: none;
+}
+
+.cource-list2 li{
+    font-size: 1.4rem;
+    color:white;
+}
+.cource-list2 li::before{
+    content:'\f058';
+    font-family: 'font awesome 5 free';
+
+    display: inline-block;
+    margin: 5px 10px;
+    font-size: 2rem;
+    color:coral;
+}
+
+

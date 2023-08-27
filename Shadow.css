@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+     text-align: center;
+    color: green;
+    margin: 10px;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 4rem;
+    
+}
+.container{
+    background-color: lightcyan;
+    width: 1150px;
+    padding: 20px;
+    margin: 0 auto;
+
+}
+.shadow{
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(22, 12, 75);
+    text-shadow: 5px 5px 2px white;
+    margin:0 auto;
+    box-shadow: 5px 7px 5px palevioletred;
+}
